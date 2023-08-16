@@ -1,0 +1,11 @@
+.nav-categories{
+    gap:40px;
+}
+
+.nav-categories a{
+    color:black;
+}
+
+.nav-categories a:hover{
+    color:olivedrab;
+}

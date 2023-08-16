@@ -1,0 +1,17 @@
+
+.infoPrice{
+    font-weight: lighter;
+    padding-top: 18px;
+}
+
+.infoStock{
+    font-weight: lighter;
+}
+
+.itemFooter a{
+    color: black;
+}
+
+.itemFooter a:hover{
+    color:olivedrab;
+}

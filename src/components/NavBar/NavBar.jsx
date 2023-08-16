@@ -1,3 +1,5 @@
+import './NavBar.css'
+
 import plantHouse from './assets/plantHouse.svg'
 import CartWidget from '../CartWidget/CartWidget';
 
@@ -16,7 +18,7 @@ const NavBar = () => {
                         <img src={plantHouse} alt='planthouse-logo' />
                     </Link>
                 </Navbar.Brand>
-                <Nav className="me-auto">
+                <Nav className="nav-categories">
                     <NavLink to={`/category/de-interior`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>De interior</NavLink>
                     <NavLink to={`/category/de-exterior`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>De Exterior</NavLink>
                     <NavLink to={`/category/macetas`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Macetas</NavLink>
