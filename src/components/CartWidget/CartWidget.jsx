@@ -4,7 +4,6 @@ const CardWidget = () => {
     return(
         <div>
             <img src={cart} alt='cart-widget'/>
-            1
         </div>
     );
 };
