@@ -1,11 +1,14 @@
-
-.infoPrice{
-    font-weight: lighter;
-    padding-top: 18px;
+.cardItem{
+    padding-top: 25px;
 }
 
-.infoStock{
+.imgItem :hover{
+   opacity: 0.5;
+}
+
+.itemInfo{
     font-weight: lighter;
+    padding-top: 20px;
 }
 
 .itemFooter a{
